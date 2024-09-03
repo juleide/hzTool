@@ -1,0 +1,27 @@
+{
+  "name": "hz-tool",
+  "version": "1.0.0",
+  "description": "hz工具箱",
+  "type": "module",
+  "main": "bin/hzTool.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hzTool",
+    "clean node_modules"
+  ],
+  "bin": {
+    "hzTool": "./bin/hzTool.js"
+  },
+  "author": "julei",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy-middleware": "^3.0.0",
+    "inquirer": "^10.1.8",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "commander": "^10.0.1"
+  }
+}
